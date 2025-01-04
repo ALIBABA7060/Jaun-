@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #fffbfb;
+    line-height: 1.6;
+    background-color:hsl(0, 0%, 0%);  }
+
+header {
+ 
+   
+    color: #fdfdfd;
+    padding: 20px 20px;
+    text-align: center;
+     margin: 1%;
+     margin-right: 2.5%;
+
+
+}
+
+header .e {
+border: 2px solid white;
+border-radius: 60%;
+}
+header h1 {
+    margin: 0;
+    margin-top: 0%;
+    font-size: 2.5em;
+    
+}
+.hero {
+    background: url('') no-repeat center center/cover;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 249, 249);
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+.hero:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+    
+    
+
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+}
+#poem {
+    margin-bottom: 10px;
+   margin-right:40%;
+   font-family: 'Brush Script MT', cursive;
+   font-size: xx-large;
+   transition: transform 0.3s ease-in-out;
+}
+#poem:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.poem h3 {
+    font-size: 1.5em;
+    color: #444;
+}
+
+footer {
+    background: #7f0b0b;
+    color: #eae4e4;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    right: 1%;
+ 
+}
+
+footer p {
+    margin: 0;
+}
+.img{
+    position: absolute;
+    z-index: -1;
+    opacity: 50%;
+    margin-left: 25%;
+    
+}
+.effect:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+    box-shadow :5px 5px 30px  #b42323;
+ }
+ .effect{
+     transition:transform .2s ease-in-out;
+ }
+ #poem1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: x-large;
+    text-align: right;
+    
+    margin: 20px auto;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#poem1:hover {
+    transform: scale(1.2); 
+}
+
+#poem1 img{ 
+ margin-right: 70% ;
+ margin-top:0%;
+
+}
+span{
+ display:inline-block;
+}
+span::first-letter{
+ font-size: 70px;
+ color:rgb(216, 32, 32);
+ font-weight: bold;
+}
+#urdu{
+    position:absolute;
+    right: 25%;
+    display: flex;
+    top:300%;
+    font-size: x-large;
+   
+    padding: 20px 20px;
+}
+#up {
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    left: 0%;
+    top: 0%;
+    height: 66%;
+   
+    
+   
+}
+#lb{
+    height: 40%;
+    width: 30%;
+    margin-left:62%;
+    position: absolute;
+    top: 345%;
+    bottom: 0%;
+    z-index: -1;
+    border-radius:70%;
+   
+}
+
